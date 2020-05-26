@@ -1,0 +1,77 @@
+Script started on Thu 21 Oct 2010 11:09:18 AM EDT
+thomas@silverfish% perl extract_data.pl cds_subjects.xml[P[P[P[P[P[P[P[1@s[1@u
+extract_subject_metadata.pl  extract_subj_info.pl         
+thomas@silverfish% perl extract_subj cds_subjects.xml[37G[1@_[1@i[1@n[6@fo.pl 
+finding items..
+masers n:114 u100:  u90: spect.dopplerveloc,em.ir,phys.veloc,stat.error,
+bl_lac_objects n:28 u100:  u90: spect.index,time.epoch,em.opt.v,meta.ref.url,src.class,em.ir.j,meta.note,src.redshift,phot.flux.density,meta.code.error,
+supernovae_remnants n:46 u100:  u90: phot.flux,src.class,meta.note,em.radio.750-1500mhz,src,arith.ratio,
+white_dwarf_stars n:122 u100:  u90: em.opt.u,em.opt.v,em.opt.r,pos.distance,phys.temperature.effective,src.sptype,em.opt.i,
+early-type_stars n:306 u100:  u90: stat.error,meta.code.error,em.opt.b,src.sptype,meta.note,
+redshifts n:1266 u100:  u90: em.opt.r,stat.error,meta.code.error,em.opt.b,meta.note,em.opt.i,
+pulsars n:76 u100:  u90: meta.note,phot.flux.density,time.period,
+nonstellar n:20 u100: phys.angsize, u90: meta.number,src.class,phot.mag,
+stars n:430 u100:  u90: phys.abund,em.opt.b,meta.note,phot.color,
+interstellar_medium n:170 u100:  u90: phys.angsize,stat.error,meta.code.error,pos.galactic.lon,phot.mag,meta.note,pos.galactic.lat,
+peculiar_stars n:142 u100:  u90: phys.abund,em.opt.b,meta.ref,meta.note,phot.color,
+planetary_nebulae n:144 u100:  u90: phys.abund,meta.code.error,phot.mag,phot.flux.density,
+magnetic_fields n:20 u100: phys.veloc.rotat,phys.size.radius,src.sptype, u90: phys.magfield,em.radio,stat.error,phys.luminosity,stat.param,arith.ratio,meta.ref,phys.mass,time.epoch,phot.flux.density,
+emission_stars n:50 u100:  u90: stat.error,meta.id.cross,meta.code.error,em.opt.b,src.sptype,meta.code,phot.color,
+constellations n:4 u100: meta.note,meta.id,meta.id.part, u90: 
+
+galaxies n:1108 u100:  u90: phys.angsize,stat.error,meta.code.error,em.opt.b,meta.note,phot.flux.density,
+clusters_of_galaxies n:190 u100:  u90: phys.angsize,src.redshift,em.x-ray,stat.error,phys.luminosity,phot.mag,meta.note,
+
+spectra_galaxies n:62 u100:  u90: phot.flux,src.redshift,stat.error,em.opt.b,spect.line.eqwidth,meta.note,src.morph.type,spect.line.intensity,phys.sfr,pos.heliocentric,
+
+markarian_galaxies n:6 u100:  u90: em.opt.r,em.ir.j,src.redshift,em.ir.h,em.opt.b,meta.ref,meta.code,em.opt.v,meta.note,em.ir.k,
+seyfert_galaxies n:46 u100:  u90: em.opt.r,src.class,phys.angsize,src.redshift,stat.error,meta.code.error,phot.mag,meta.note,phot.flux.density,src,
+
+globular_clusters n:98 u100:  u90: phot.flux,em.x-ray,em.opt.b,meta.code,phot.count,
+spectroscopic_binaries n:6 u100:  u90: meta.unit,meta.code.multip,src.orbital,em.ir.8-15um,time.period,phys.size,src.orbital.eccentricity,
+spectrophotometry n:84 u100:  u90: meta.ref,meta.note,phot.color,
+ages n:20 u100: phys.abund.z,em.opt.v,phot.color, u90: phot.color.excess,stat.error,meta.code.error,em.opt.b,meta.note,phot.flux.density,
+positional_data n:130 u100:  u90: meta.number,em.opt.v,
+qsos n:366 u100:  u90: meta.code.error,em.opt.b,meta.ref.url,
+equivalent_widths n:50 u100:  u90: stat.error,em.opt.b,src.sptype,spect.line.eqwidth,
+cataclysmic_binaries n:24 u100: em.x-ray,meta.note, u90: stat.error,arith.ratio,em.opt.v,
+intermediate-band_photometry n:88 u100:  u90: 
+late-type_stars n:424 u100:  u90: stat.error,meta.code.error,meta.ref,src.sptype,meta.code,em.opt.v,meta.note,em.ir.k,em.opt.i,
+narrow-band_photometry n:8 u100: meta.ref,meta.note,src,phot.color,em.line.halpha, u90: 
+velocities n:898 u100:  u90: stat.error,em.opt.b,spect.dopplerveloc,em.opt.v,meta.note,
+abundances n:10 u100:  u90: phys.abund.fe,phys.temperature.effective,src.sptype,meta.note,phys.gravity,
+open_clusters n:158 u100:  u90: em.ir.j,em.x-ray,em.ir.h,meta.note,em.ir.k,phot.color,em.opt.i,
+surface_photometry n:56 u100:  u90: em.opt.r,meta.note,src.morph.type,phot.mag.sb,
+nebulae n:146 u100:  u90: phys.angsize,pos.distance,stat.error,meta.code.error,pos.galactic.lon,phot.mag,phys.mass,pos.galactic.lat,phot.flux.density,
+photometry n:294 u100:  u90: em.opt.r,em.opt.b,meta.note,em.opt.i,
+variable_stars n:1298 u100:  u90: stat.error,meta.code.error,em.opt.b,meta.code,meta.ref.url,meta.note,time.period,phot.color,em.opt.i,
+gravitational_lensing n:14 u100:  u90: phot.flux,time.crossing,phys.absorption.opticaldepth,time.duration,obs.field,meta.code.error,arith.ratio,meta.code,phot.mag,time.epoch,time.interval,obs.exposure,em.opt.i,
+obs_log n:44 u100: meta.ref.url, u90: meta.code,meta.note,
+planets_plus_asteroids n:78 u100:  u90: em.opt.v,meta.note,
+spectral_classification n:100 u100:  u90: meta.code.error,em.opt.b,meta.ref,phot.color,
+wr_stars n:26 u100:  u90: em.opt.u,stat.error,meta.note,
+ephemerides n:6 u100:  u90: meta.number,time.duration,instr.tel,em.opt.v,meta.note,stat.min,time.period,obs.exposure,meta.id.assoc,
+orbits n:4 u100: meta.number,meta.code.multip,time.epoch,src.orbital,meta.ref.url,meta.note,pos.posang, u90: 
+ysos n:72 u100:  u90: src.class,stat.error,em.ir.3-4um,meta.ref.url,em.ir.k,
+spectroscopy n:242 u100:  u90: stat.error,arith.ratio,meta.code,meta.note,phot.flux.density,
+eclipsing_binaries n:32 u100: phot.flux,time.period, u90: meta.note,src.var,
+novae n:20 u100: src.class,phot.mag,meta.ref.url, u90: em.opt.v,
+models n:34 u100:  u90: stat.fit.param,phys.angsize,pos.distance,stat.error,phys.luminosity,phys.temperature.effective,em.opt.b,meta.code,phys.mass,em.opt.v,
+multiple_stars n:132 u100: pos.posang, u90: meta.code.error,meta.code.multip,time.epoch,
+diameters n:36 u100: phot.color, u90: stat.error,phys.temperature.effective,phys.size.radius,meta.ref,src.sptype,meta.code,meta.note,src,
+extinction n:8 u100: em.opt.u,src.sptype,phys.absorption, u90: 
+associations n:44 u100:  u90: em.ir.j,time.age,meta.code.error,em.ir.h,arith.diff,meta.note,em.ir.k,phot.flux.density,phot.color,
+polarization n:86 u100:  u90: meta.code.error,em.opt.v,meta.note,em.radio.750-1500mhz,
+wide-band_photometry n:784 u100:  u90: em.opt.u,em.opt.r,meta.code.error,meta.note,
+supernovae n:88 u100:  u90: meta.id.parent,src.class,src.redshift,stat.error,meta.ref,meta.code,pos.heliocentric,em.opt.i,
+hii_regions n:192 u100:  u90: em.ir.j,phys.angsize,phys.abund,em.ir.h,meta.note,em.ir.k,phot.flux.density,
+blue_objects n:2 u100:  u90: 
+proper_motions n:458 u100:  u90: em.opt.b,meta.note,
+atomic_data n:2 u100:  u90: 
+parallaxes n:12 u100: em.ir.j,pos.distance,phys.temperature,em.opt.v, u90: pos.pm,meta.note,em.ir.k,
+agn n:92 u100:  u90: phys.luminosity,arith.ratio,meta.code,phot.count,spect.index,phot.mag,meta.note,
+rotational_velocities n:94 u100:  u90: phys.magabs,meta.code.error,meta.ref,src.sptype,em.opt.v,meta.note,phot.color,
+masses n:74 u100:  u90: phys.temperature.effective,meta.code.multip,src.sptype,meta.ref,em.opt.v,phot.color,
+thomas@silverfish% ^Dexit
+
+Script done on Thu 21 Oct 2010 11:10:05 AM EDT

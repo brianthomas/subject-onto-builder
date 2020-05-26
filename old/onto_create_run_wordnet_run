@@ -1,0 +1,498 @@
+Script started on Fri 05 Nov 2010 08:49:20 PM EDT
+thomas@silverfish% perl create_subject_ontology.pl subjects_tokenized > subject_flat.owl ; perl merge_ontologies.pl IVOAT.owl subject_ flat.owl > subject.owl[Aexit[K[134G f[K[A[24Gperl create_subject_ontology.pl subjects_tokenized > subject_flat.owl ; perl merge_ontologies.pl IVOAT.owl subject_ flat.owl > subject.owl[A[134G[134G[70G[1@_[134Gtf[1@_[A[71G[134G[71G[1@w[134Gc_[1@t[A[72G[134G[72G[1@o[134Get[1@c[A[73G[134G[73G[1@r[134Gjc[1@e[A[74G[134G[74G[1@d[134Gbe[1@j[A[75G[134G[75G[1@n[134Guj[1@b[A[76G[134G[76G[1@e[134Gsb[1@u[A[77G[1@t[134G[K u[1@s[A[78G[134G s
+Try matching concept id:dust
+MATCHED node in donor ontology id:dust
+ Got sub-class node in donor ontology id:intergalacticmatter
+ Got sub-class node in donor ontology id:interstellarmatter
+Try matching concept id:atmosphere
+MATCHED node in donor ontology id:atmosphere
+Try matching concept id:peculiar
+Try matching concept id:ultraviolet
+MATCHED node in donor ontology id:ultraviolet
+Try matching concept id:measurement
+MATCHED node in donor ontology id:measurement
+Try matching concept id:numerical
+Try matching concept id:relativity
+MATCHED node in donor ontology id:relativity
+ Got sub-class node in donor ontology id:cosmogony
+ Got sub-class node in donor ontology id:astronomy
+ Got sub-class node in donor ontology id:scientificfield
+Try matching concept id:moment
+Try matching concept id:permanent
+Try matching concept id:molecule
+MATCHED node in donor ontology id:molecule
+ Got sub-class node in donor ontology id:matter
+Try matching concept id:time
+MATCHED node in donor ontology id:time
+Try matching concept id:multiplestar
+MATCHED node in donor ontology id:multiplestar
+Try matching concept id:labeled
+Try matching concept id:objective
+MATCHED node in donor ontology id:objective
+Try matching concept id:wind
+Try matching concept id:extragalactic
+Try matching concept id:ga
+Try matching concept id:orbit
+MATCHED node in donor ontology id:orbit
+Try matching concept id:sss
+Try matching concept id:satellite
+MATCHED node in donor ontology id:satellite
+Try matching concept id:flare
+MATCHED node in donor ontology id:flare
+Try matching concept id:synthetic
+Try matching concept id:pyrolytic
+Try matching concept id:hcg
+Try matching concept id:atomic
+Try matching concept id:virtual
+Try matching concept id:nebula
+MATCHED node in donor ontology id:nebula
+ Got sub-class node in donor ontology id:interstellarmatter
+Try matching concept id:image
+MATCHED node in donor ontology id:image
+Try matching concept id:grating
+Try matching concept id:constellation
+MATCHED node in donor ontology id:constellation
+Try matching concept id:pulsar
+MATCHED node in donor ontology id:pulsar
+ Got sub-class node in donor ontology id:collapsedstar
+ Got sub-class node in donor ontology id:degeneratestar
+ Got sub-class node in donor ontology id:evolvedstar
+ Got sub-class node in donor ontology id:radiosource
+ Got sub-class node in donor ontology id:relativisticstar
+ Got sub-class node in donor ontology id:star
+ Got sub-class node in donor ontology id:stellarobject
+ Got sub-class node in donor ontology id:degeneratematter
+ Got sub-class node in donor ontology id:subluminousstar
+ Got sub-class node in donor ontology id:matter
+ Got sub-class node in donor ontology id:nonmainsequencestar
+ Got sub-class node in donor ontology id:star
+ Got sub-class node in donor ontology id:source
+Try matching concept id:uv
+Try matching concept id:isolated
+Try matching concept id:nasa
+Try matching concept id:model
+MATCHED node in donor ontology id:model
+Try matching concept id:plate
+Try matching concept id:gpa
+Try matching concept id:translation
+Try matching concept id:mast
+Try matching concept id:si
+Try matching concept id:me
+Try matching concept id:interstellar
+Try matching concept id:data
+Try matching concept id:meg
+Try matching concept id:debris
+Try matching concept id:moon
+MATCHED node in donor ontology id:moon
+ Got sub-class node in donor ontology id:satellite
+Try matching concept id:largemagellaniccloud
+MATCHED node in donor ontology id:largemagellaniccloud
+ Got sub-class node in donor ontology id:magellaniccloud
+ Got sub-class node in donor ontology id:galaxy
+ Got sub-class node in donor ontology id:irregulargalaxy
+ Got sub-class node in donor ontology id:localgroup
+ Got sub-class node in donor ontology id:nearbygalaxy
+ Got sub-class node in donor ontology id:extragalacticobject
+ Got sub-class node in donor ontology id:rotatingbody
+ Got sub-class node in donor ontology id:galaxy
+ Got sub-class node in donor ontology id:galaxygroup
+ Got sub-class node in donor ontology id:nearbygalaxy
+ Got sub-class node in donor ontology id:galaxy
+Try matching concept id:instrumentation
+Try matching concept id:publication
+Try matching concept id:galaxy
+MATCHED node in donor ontology id:galaxy
+Try matching concept id:authority
+Try matching concept id:general
+Try matching concept id:object
+Try matching concept id:project
+Try matching concept id:ii
+Try matching concept id:cool
+Try matching concept id:simulated
+Try matching concept id:miscellaneous
+Try matching concept id:public
+Try matching concept id:taurus
+Try matching concept id:representative
+Try matching concept id:reflex
+Try matching concept id:photographic
+Try matching concept id:binarystar
+MATCHED node in donor ontology id:binarystar
+ Got sub-class node in donor ontology id:binarysystem
+ Got sub-class node in donor ontology id:star
+Try matching concept id:simulation
+MATCHED node in donor ontology id:simulation
+Try matching concept id:exobiology
+Try matching concept id:corona
+MATCHED node in donor ontology id:corona
+Try matching concept id:o
+Try matching concept id:universe
+MATCHED node in donor ontology id:universe
+Try matching concept id:albedo
+MATCHED node in donor ontology id:albedo
+ Got sub-class node in donor ontology id:opticalproperty
+ Got sub-class node in donor ontology id:property
+Try matching concept id:mode
+Try matching concept id:matter
+MATCHED node in donor ontology id:matter
+Try matching concept id:list
+Try matching concept id:maser
+MATCHED node in donor ontology id:maser
+Try matching concept id:strong
+Try matching concept id:ira
+Try matching concept id:astronomy
+MATCHED node in donor ontology id:astronomy
+Try matching concept id:fundamental
+Try matching concept id:variablestar
+MATCHED node in donor ontology id:variablestar
+Try matching concept id:abundance
+MATCHED node in donor ontology id:abundance
+Try matching concept id:cutout
+Try matching concept id:fuse
+GOT A partial match for based on parent id:spaceobservatory
+ Got sub-class node in donor ontology id:observatory
+ Got sub-class node in donor ontology id:artificialsatellite
+Try matching concept id:referenceframe
+MATCHED node in donor ontology id:referenceframe
+Try matching concept id:heaven
+Try matching concept id:source
+MATCHED node in donor ontology id:source
+Try matching concept id:leg
+Try matching concept id:local
+Try matching concept id:series
+Try matching concept id:physics
+Try matching concept id:observatory
+MATCHED node in donor ontology id:observatory
+Try matching concept id:interstellarmedium
+Try matching concept id:swirl
+Try matching concept id:composition
+MATCHED node in donor ontology id:composition
+Try matching concept id:organization
+Try matching concept id:counterpart
+Try matching concept id:master
+Try matching concept id:education
+Try matching concept id:single
+Try matching concept id:observation
+MATCHED node in donor ontology id:observation
+Try matching concept id:faust
+Try matching concept id:converter
+Try matching concept id:hot
+Try matching concept id:surface
+Try matching concept id:test
+Try matching concept id:trig
+Try matching concept id:tau
+Try matching concept id:axis
+MATCHED node in donor ontology id:axis
+Try matching concept id:darkmatter
+MATCHED node in donor ontology id:darkmatter
+ Got sub-class node in donor ontology id:intergalacticmatter
+ Got sub-class node in donor ontology id:interstellarmatter
+Try matching concept id:spectroscopy
+MATCHED node in donor ontology id:spectroscopy
+ Got sub-class node in donor ontology id:astronomicaltechnique
+ Got sub-class node in donor ontology id:observingtechnique
+Try matching concept id:observational
+Try matching concept id:compilation
+Try matching concept id:mass
+MATCHED node in donor ontology id:mass
+Try matching concept id:organisation
+Try matching concept id:burst
+MATCHED node in donor ontology id:burst
+Try matching concept id:service
+Try matching concept id:event
+Try matching concept id:extinction
+Try matching concept id:planetary
+MATCHED node in donor ontology id:planetary
+Try matching concept id:resolution
+MATCHED node in donor ontology id:resolution
+Try matching concept id:woolley
+Try matching concept id:transient
+Try matching concept id:age
+MATCHED node in donor ontology id:age
+Try matching concept id:unknown
+Try matching concept id:coordinate
+Try matching concept id:log
+Try matching concept id:university
+Try matching concept id:radar
+MATCHED node in donor ontology id:radar
+Try matching concept id:chianti
+Try matching concept id:emission
+Try matching concept id:publishing
+Try matching concept id:sunspot
+MATCHED node in donor ontology id:sunspot
+ Got sub-class node in donor ontology id:starspot
+Try matching concept id:scatter
+Try matching concept id:pic
+Try matching concept id:slew
+Try matching concept id:point
+Try matching concept id:ion
+MATCHED node in donor ontology id:ion
+ Got sub-class node in donor ontology id:compositeparticle
+ Got sub-class node in donor ontology id:particle
+ Got sub-class node in donor ontology id:boson
+ Got sub-class node in donor ontology id:elementaryparticle
+ Got sub-class node in donor ontology id:particle
+ Got sub-class node in donor ontology id:particle
+Try matching concept id:bd
+Try matching concept id:literature
+Try matching concept id:le
+Try matching concept id:anomaly
+MATCHED node in donor ontology id:anomaly
+Try matching concept id:trace
+Try matching concept id:bar
+Try matching concept id:target
+Try matching concept id:symbiotic
+Try matching concept id:deep
+Try matching concept id:formation
+MATCHED node in donor ontology id:formation
+Try matching concept id:jet
+MATCHED node in donor ontology id:jet
+ Got sub-class node in donor ontology id:massloss
+Try matching concept id:distribution
+Try matching concept id:stp
+Try matching concept id:sun
+MATCHED node in donor ontology id:sun
+ Got sub-class node in donor ontology id:star
+Try matching concept id:too
+Try matching concept id:magnitude
+MATCHED node in donor ontology id:magnitude
+Try matching concept id:gas
+MATCHED node in donor ontology id:gas
+Try matching concept id:spacecraft
+Try matching concept id:technique
+Try matching concept id:spectroscopic
+Try matching concept id:color
+MATCHED node in donor ontology id:color
+ Got sub-class node in donor ontology id:opticalproperty
+Try matching concept id:comet
+MATCHED node in donor ontology id:comet
+ Got sub-class node in donor ontology id:rotatingbody
+Try matching concept id:gi
+Try matching concept id:astronomical
+Try matching concept id:dia
+Try matching concept id:incoherent
+Try matching concept id:association
+Try matching concept id:neutronstar
+MATCHED node in donor ontology id:neutronstar
+ Got sub-class node in donor ontology id:collapsedstar
+ Got sub-class node in donor ontology id:compactobject
+ Got sub-class node in donor ontology id:degeneratestar
+ Got sub-class node in donor ontology id:relativisticstar
+ Got sub-class node in donor ontology id:stellarobject
+Try matching concept id:astrometry
+MATCHED node in donor ontology id:astrometry
+ Got sub-class node in donor ontology id:astronomicaltechnique
+ Got sub-class node in donor ontology id:astronomy
+ Got sub-class node in donor ontology id:observingtechnique
+Try matching concept id:pub
+Try matching concept id:supernova
+MATCHED node in donor ontology id:supernova
+ Got sub-class node in donor ontology id:highluminositystar
+ Got sub-class node in donor ontology id:star
+ Got sub-class node in donor ontology id:star
+Try matching concept id:integral
+GOT A partial match for based on parent id:gammarayobservatory
+ Got sub-class node in donor ontology id:observatory
+ Got sub-class node in donor ontology id:spaceobservatory
+Try matching concept id:index
+Try matching concept id:prism
+MATCHED node in donor ontology id:prism
+Try matching concept id:exchange
+Try matching concept id:raw
+Try matching concept id:led
+Try matching concept id:extraction
+Try matching concept id:whitedwarf
+MATCHED node in donor ontology id:whitedwarf
+ Got sub-class node in donor ontology id:compactobject
+ Got sub-class node in donor ontology id:degeneratedwarf
+ Got sub-class node in donor ontology id:evolvedstar
+ Got sub-class node in donor ontology id:stellarobject
+ Got sub-class node in donor ontology id:degeneratestar
+Try matching concept id:natural
+Try matching concept id:imaging
+Try matching concept id:variability
+MATCHED node in donor ontology id:variability
+Try matching concept id:warp
+Try matching concept id:cosmic
+MATCHED node in donor ontology id:cosmic
+Try matching concept id:star
+MATCHED node in donor ontology id:star
+Try matching concept id:binary
+Try matching concept id:quasar
+MATCHED node in donor ontology id:quasar
+ Got sub-class node in donor ontology id:extragalacticobject
+ Got sub-class node in donor ontology id:extragalacticradiosource
+ Got sub-class node in donor ontology id:extragalacticobject
+ Got sub-class node in donor ontology id:radiosource
+Try matching concept id:highresolution
+Try matching concept id:sn
+Try matching concept id:classifier
+Try matching concept id:ready
+Try matching concept id:pointed
+Try matching concept id:registry
+Try matching concept id:position
+MATCHED node in donor ontology id:position
+Try matching concept id:astrobiology
+MATCHED node in donor ontology id:astrobiology
+ Got sub-class node in donor ontology id:astronomy
+ Got sub-class node in donor ontology id:biology
+ Got sub-class node in donor ontology id:scientificfield
+ Got sub-class node in donor ontology id:scientificfield
+Try matching concept id:highenergy
+Try matching concept id:science
+Try matching concept id:redshift
+MATCHED node in donor ontology id:redshift
+ Got sub-class node in donor ontology id:dopplereffect
+ Got sub-class node in donor ontology id:lineshift
+Try matching concept id:processing
+Try matching concept id:texas
+Try matching concept id:merging
+Try matching concept id:ionosphere
+MATCHED node in donor ontology id:ionosphere
+Try matching concept id:corot
+Try matching concept id:evolution
+MATCHED node in donor ontology id:evolution
+Try matching concept id:tartarus
+Try matching concept id:testing
+MATCHED node in donor ontology id:testing
+Try matching concept id:geophysics
+MATCHED node in donor ontology id:geophysics
+ Got sub-class node in donor ontology id:earthscience
+ Got sub-class node in donor ontology id:scientificfield
+Try matching concept id:chemistry
+MATCHED node in donor ontology id:chemistry
+ Got sub-class node in donor ontology id:scientificfield
+Try matching concept id:molecular
+Try matching concept id:ob
+Try matching concept id:not
+Try matching concept id:tool
+Try matching concept id:line
+Try matching concept id:nova
+MATCHED node in donor ontology id:nova
+ Got sub-class node in donor ontology id:eruptivebinarystar
+ Got sub-class node in donor ontology id:highluminositystar
+ Got sub-class node in donor ontology id:binarystar
+Try matching concept id:spectrum
+MATCHED node in donor ontology id:spectrum
+Try matching concept id:weak
+Try matching concept id:transition
+Try matching concept id:demonstrator
+Try matching concept id:halo
+MATCHED node in donor ontology id:halo
+Try matching concept id:batten
+Try matching concept id:smallmagellaniccloud
+MATCHED node in donor ontology id:smallmagellaniccloud
+ Got sub-class node in donor ontology id:magellaniccloud
+Try matching concept id:digital
+Try matching concept id:plasma
+MATCHED node in donor ontology id:plasma
+ Got sub-class node in donor ontology id:particle
+Try matching concept id:rv
+Try matching concept id:crate
+Try matching concept id:gps
+Try matching concept id:mcg
+Try matching concept id:coronal
+Try matching concept id:astrophysics
+MATCHED node in donor ontology id:astrophysics
+ Got sub-class node in donor ontology id:scientificfield
+Try matching concept id:catalog
+MATCHED node in donor ontology id:catalog
+Try matching concept id:mission
+Try matching concept id:zeus
+Try matching concept id:biology
+MATCHED node in donor ontology id:biology
+Try matching concept id:skylab
+Try matching concept id:velocity
+MATCHED node in donor ontology id:velocity
+Try matching concept id:solarsystem
+MATCHED node in donor ontology id:solarsystem
+ Got sub-class node in donor ontology id:planetarysystem
+Try matching concept id:group
+Try matching concept id:cat
+Try matching concept id:spectrometer
+Try matching concept id:magneticfield
+MATCHED node in donor ontology id:magneticfield
+Try matching concept id:medium
+Try matching concept id:planet
+MATCHED node in donor ontology id:planet
+ Got sub-class node in donor ontology id:rotatingbody
+Try matching concept id:method
+Try matching concept id:release
+Try matching concept id:alfalfa
+Try matching concept id:optical
+Try matching concept id:radio
+Try matching concept id:database
+MATCHED node in donor ontology id:database
+ Got sub-class node in donor ontology id:computing
+Try matching concept id:site
+Try matching concept id:photometry
+MATCHED node in donor ontology id:photometry
+ Got sub-class node in donor ontology id:astronomicaltechnique
+ Got sub-class node in donor ontology id:observingtechnique
+Try matching concept id:coup
+Try matching concept id:manipulation
+Try matching concept id:search
+Try matching concept id:standard
+Try matching concept id:ogle
+Try matching concept id:photometric
+Try matching concept id:community
+Try matching concept id:earth
+MATCHED node in donor ontology id:earth
+ Got sub-class node in donor ontology id:planet
+Try matching concept id:schmidt
+Try matching concept id:gravitational
+Try matching concept id:sage
+Try matching concept id:mar
+MATCHED node in donor ontology id:mar
+ Got sub-class node in donor ontology id:planet
+Try matching concept id:photographicplate
+MATCHED node in donor ontology id:photographicplate
+ Got sub-class node in donor ontology id:photographicmaterial
+Try matching concept id:cyder
+Try matching concept id:capability
+Try matching concept id:polarization
+Try matching concept id:telescope
+MATCHED node in donor ontology id:telescope
+ Got sub-class node in donor ontology id:opticalinstrument
+Try matching concept id:solar
+MATCHED node in donor ontology id:solar
+Try matching concept id:research
+MATCHED node in donor ontology id:research
+Try matching concept id:cosmicmicrowavebackground
+Try matching concept id:astrophysical
+Try matching concept id:survey
+MATCHED node in donor ontology id:survey
+Try matching concept id:referencesystem
+MATCHED node in donor ontology id:referencesystem
+Try matching concept id:magellaniccloud
+MATCHED node in donor ontology id:magellaniccloud
+Try matching concept id:cluster
+MATCHED node in donor ontology id:cluster
+Try matching concept id:first
+Try matching concept id:cosmology
+MATCHED node in donor ontology id:cosmology
+ Got sub-class node in donor ontology id:astronomy
+Try matching concept id:archive
+Try matching concept id:merlin
+Try matching concept id:application
+Try matching concept id:space
+MATCHED node in donor ontology id:space
+Try matching concept id:meteor
+MATCHED node in donor ontology id:meteor
+Try matching concept id:diameter
+MATCHED node in donor ontology id:diameter
+ Got sub-class node in donor ontology id:dimension
+Try matching concept id:infrared
+MATCHED node in donor ontology id:infrared
+Try matching concept id:geodesy
+MATCHED node in donor ontology id:geodesy
+ Got sub-class node in donor ontology id:earthscience
+Try matching concept id:phot
+Try matching concept id:structure
+MATCHED node in donor ontology id:structure
+Try matching concept id:asteroid
+MATCHED node in donor ontology id:asteroid
+ Got sub-class node in donor ontology id:rotatingbody
+Matched 104 terms out of 284
+thomas@silverfish% ^Dexit
+
+Script done on Fri 05 Nov 2010 08:49:48 PM EDT
