@@ -1,0 +1,669 @@
+Script started on Fri 05 Nov 2010 12:57:07 AM EDT
+thomas@silverfish% !Perl[K[K[K[Kpendperl merge_ontologies.pl IVOAT.owl subject_flat.owl > subject.owl
+MATCHED node in donor ontology id:dust
+ MERGE Class id:dust
+ Got sub-class node in donor ontology id:intergalacticmatter
+ Got sub-class node in donor ontology id:interstellarmatter
+ MERGE Class id:intergalacticmatter
+ MERGE Class id:interstellarmatter
+MATCHED node in donor ontology id:atmosphere
+ MERGE Class id:atmosphere
+MATCHED node in donor ontology id:measurement
+ MERGE Class id:measurement
+MATCHED node in donor ontology id:relativity
+ MERGE Class id:relativity
+ Got sub-class node in donor ontology id:cosmogony
+ MERGE Class id:cosmogony
+ Got sub-class node in donor ontology id:astronomy
+ MERGE Class id:astronomy
+ Got sub-class node in donor ontology id:scientificfield
+ MERGE Class id:scientificfield
+MATCHED node in donor ontology id:halpha
+ MERGE Class id:halpha
+ Got sub-class node in donor ontology id:balmerseries
+ Got sub-class node in donor ontology id:resonanceline
+ MERGE Class id:balmerseries
+ Got sub-class node in donor ontology id:hydrogenspectrum
+ MERGE Class id:hydrogenspectrum
+ Got sub-class node in donor ontology id:spectrum
+ MERGE Class id:spectrum
+ MERGE Class id:resonanceline
+MATCHED node in donor ontology id:molecule
+ MERGE Class id:molecule
+ Got sub-class node in donor ontology id:matter
+ MERGE Class id:matter
+MATCHED node in donor ontology id:objective
+ MERGE Class id:objective
+MATCHED node in donor ontology id:spectrophotometry
+ MERGE Class id:spectrophotometry
+ Got sub-class node in donor ontology id:astronomicaltechnique
+ Got sub-class node in donor ontology id:observingtechnique
+ MERGE Class id:astronomicaltechnique
+ MERGE Class id:observingtechnique
+MATCHED node in donor ontology id:orbit
+ MERGE Class id:orbit
+MATCHED node in donor ontology id:brightstar
+ MERGE Class id:brightstar
+ Got sub-class node in donor ontology id:highluminositystar
+ Got sub-class node in donor ontology id:star
+ MERGE Class id:highluminositystar
+ Got sub-class node in donor ontology id:star
+ MERGE Class id:star
+ Got sub-class node in donor ontology id:stellarobject
+ MERGE Class id:stellarobject
+ MERGE Class id:star
+MATCHED node in donor ontology id:lymanalpha
+ MERGE Class id:lymanalpha
+ Got sub-class node in donor ontology id:lymanseries
+ Got sub-class node in donor ontology id:resonanceline
+ MERGE Class id:lymanseries
+ Got sub-class node in donor ontology id:hydrogenspectrum
+ MERGE Class id:hydrogenspectrum
+ MERGE Class id:resonanceline
+MATCHED node in donor ontology id:constellation
+ MERGE Class id:constellation
+MATCHED node in donor ontology id:pulsar
+ MERGE Class id:pulsar
+ Got sub-class node in donor ontology id:collapsedstar
+ Got sub-class node in donor ontology id:degeneratestar
+ Got sub-class node in donor ontology id:evolvedstar
+ Got sub-class node in donor ontology id:radiosource
+ Got sub-class node in donor ontology id:relativisticstar
+ MERGE Class id:collapsedstar
+ Got sub-class node in donor ontology id:star
+ MERGE Class id:star
+ MERGE Class id:degeneratestar
+ Got sub-class node in donor ontology id:degeneratematter
+ Got sub-class node in donor ontology id:subluminousstar
+ MERGE Class id:degeneratematter
+ Got sub-class node in donor ontology id:matter
+ MERGE Class id:matter
+ MERGE Class id:subluminousstar
+ MERGE Class id:evolvedstar
+ Got sub-class node in donor ontology id:nonmainsequencestar
+ Got sub-class node in donor ontology id:star
+ MERGE Class id:nonmainsequencestar
+ MERGE Class id:star
+ MERGE Class id:radiosource
+ Got sub-class node in donor ontology id:source
+ MERGE Class id:source
+ MERGE Class id:relativisticstar
+MATCHED node in donor ontology id:model
+ MERGE Class id:model
+MATCHED node in donor ontology id:equivalentwidth
+ MERGE Class id:equivalentwidth
+ Got sub-class node in donor ontology id:linewidth
+ MERGE Class id:linewidth
+MATCHED node in donor ontology id:spectralclassification
+ MERGE Class id:spectralclassification
+ Got sub-class node in donor ontology id:classification
+ MERGE Class id:classification
+MATCHED node in donor ontology id:moon
+ MERGE Class id:moon
+ Got sub-class node in donor ontology id:satellite
+ MERGE Class id:satellite
+MATCHED node in donor ontology id:largemagellaniccloud
+ MERGE Class id:largemagellaniccloud
+ Got sub-class node in donor ontology id:magellaniccloud
+ MERGE Class id:magellaniccloud
+ Got sub-class node in donor ontology id:galaxy
+ Got sub-class node in donor ontology id:irregulargalaxy
+ Got sub-class node in donor ontology id:localgroup
+ Got sub-class node in donor ontology id:nearbygalaxy
+ MERGE Class id:galaxy
+ Got sub-class node in donor ontology id:extragalacticobject
+ Got sub-class node in donor ontology id:rotatingbody
+ MERGE Class id:extragalacticobject
+ MERGE Class id:rotatingbody
+ MERGE Class id:irregulargalaxy
+ Got sub-class node in donor ontology id:galaxy
+ MERGE Class id:galaxy
+ MERGE Class id:localgroup
+ Got sub-class node in donor ontology id:galaxygroup
+ Got sub-class node in donor ontology id:nearbygalaxy
+ MERGE Class id:galaxygroup
+ MERGE Class id:nearbygalaxy
+ Got sub-class node in donor ontology id:galaxy
+ MERGE Class id:galaxy
+ MERGE Class id:nearbygalaxy
+MATCHED node in donor ontology id:galaxy
+ MERGE Class id:galaxy
+MATCHED node in donor ontology id:binarystar
+ MERGE Class id:binarystar
+ Got sub-class node in donor ontology id:binarysystem
+ Got sub-class node in donor ontology id:star
+ MERGE Class id:binarysystem
+ MERGE Class id:star
+MATCHED node in donor ontology id:galaxycluster
+ MERGE Class id:galaxycluster
+ Got sub-class node in donor ontology id:cluster
+ MERGE Class id:cluster
+MATCHED node in donor ontology id:matter
+ MERGE Class id:matter
+MATCHED node in donor ontology id:maser
+ MERGE Class id:maser
+MATCHED node in donor ontology id:astronomy
+ MERGE Class id:astronomy
+MATCHED node in donor ontology id:abundance
+ MERGE Class id:abundance
+MATCHED node in donor ontology id:referenceframe
+ MERGE Class id:referenceframe
+MATCHED node in donor ontology id:source
+ MERGE Class id:source
+MATCHED node in donor ontology id:blueobject
+ MERGE Class id:blueobject
+MATCHED node in donor ontology id:molecularhydrogen
+ MERGE Class id:molecularhydrogen
+ Got sub-class node in donor ontology id:hydrogen
+ Got sub-class node in donor ontology id:interstellarmolecule
+ Got sub-class node in donor ontology id:molecule
+ MERGE Class id:hydrogen
+ Got sub-class node in donor ontology id:fundamentalchemicalelement
+ MERGE Class id:fundamentalchemicalelement
+ Got sub-class node in donor ontology id:atom
+ Got sub-class node in donor ontology id:chemicalelement
+ MERGE Class id:atom
+ Got sub-class node in donor ontology id:matter
+ MERGE Class id:matter
+ MERGE Class id:chemicalelement
+ MERGE Class id:interstellarmolecule
+ Got sub-class node in donor ontology id:interstellarmatter
+ Got sub-class node in donor ontology id:molecule
+ MERGE Class id:interstellarmatter
+ MERGE Class id:molecule
+ MERGE Class id:molecule
+MATCHED node in donor ontology id:composition
+ MERGE Class id:composition
+MATCHED node in donor ontology id:observation
+ MERGE Class id:observation
+MATCHED node in donor ontology id:bestar
+ MERGE Class id:bestar
+ Got sub-class node in donor ontology id:bstar
+ Got sub-class node in donor ontology id:herbigaebestar
+ Got sub-class node in donor ontology id:earlytypeemissionstar
+ MERGE Class id:bstar
+ Got sub-class node in donor ontology id:obstar
+ Got sub-class node in donor ontology id:earlytypestar
+ Got sub-class node in donor ontology id:youngstar
+ MERGE Class id:obstar
+ Got sub-class node in donor ontology id:earlytypestar
+ Got sub-class node in donor ontology id:youngstar
+ MERGE Class id:earlytypestar
+ Got sub-class node in donor ontology id:ultravioletsource
+ MERGE Class id:ultravioletsource
+ MERGE Class id:youngstar
+ Got sub-class node in donor ontology id:populationistar
+ Got sub-class node in donor ontology id:star
+ MERGE Class id:populationistar
+ Got sub-class node in donor ontology id:star
+ MERGE Class id:star
+ MERGE Class id:star
+ MERGE Class id:earlytypestar
+ MERGE Class id:youngstar
+ MERGE Class id:herbigaebestar
+ Got sub-class node in donor ontology id:aestar
+ Got sub-class node in donor ontology id:bestar
+ MERGE Class id:aestar
+ Got sub-class node in donor ontology id:astar
+ Got sub-class node in donor ontology id:herbigaebestar
+ Got sub-class node in donor ontology id:earlytypeemissionstar
+ MERGE Class id:astar
+ Got sub-class node in donor ontology id:earlytypestar
+ MERGE Class id:earlytypestar
+ MERGE Class id:herbigaebestar
+ MERGE Class id:earlytypeemissionstar
+ Got sub-class node in donor ontology id:emissionlinestar
+ MERGE Class id:emissionlinestar
+ Got sub-class node in donor ontology id:activestar
+ Got sub-class node in donor ontology id:emissionlineobject
+ MERGE Class id:activestar
+ Got sub-class node in donor ontology id:star
+ MERGE Class id:star
+ MERGE Class id:emissionlineobject
+ MERGE Class id:bestar
+ MERGE Class id:earlytypeemissionstar
+MATCHED node in donor ontology id:axis
+ MERGE Class id:axis
+MATCHED node in donor ontology id:darkmatter
+ MERGE Class id:darkmatter
+ Got sub-class node in donor ontology id:intergalacticmatter
+ Got sub-class node in donor ontology id:interstellarmatter
+ MERGE Class id:intergalacticmatter
+ MERGE Class id:interstellarmatter
+MATCHED node in donor ontology id:spectroscopy
+ MERGE Class id:spectroscopy
+ Got sub-class node in donor ontology id:astronomicaltechnique
+ Got sub-class node in donor ontology id:observingtechnique
+ MERGE Class id:astronomicaltechnique
+ MERGE Class id:observingtechnique
+MATCHED node in donor ontology id:mass
+ MERGE Class id:mass
+MATCHED node in donor ontology id:browndwarf
+ MERGE Class id:browndwarf
+ Got sub-class node in donor ontology id:latetypedwarf
+ Got sub-class node in donor ontology id:latetypesubdwarf
+ Got sub-class node in donor ontology id:stellarobject
+ MERGE Class id:latetypedwarf
+ Got sub-class node in donor ontology id:dwarf
+ Got sub-class node in donor ontology id:latetypestar
+ Got sub-class node in donor ontology id:lowluminositystar
+ MERGE Class id:dwarf
+ Got sub-class node in donor ontology id:mainsequencestar
+ MERGE Class id:mainsequencestar
+ Got sub-class node in donor ontology id:star
+ MERGE Class id:star
+ MERGE Class id:latetypestar
+ Got sub-class node in donor ontology id:star
+ MERGE Class id:star
+ MERGE Class id:lowluminositystar
+ Got sub-class node in donor ontology id:star
+ MERGE Class id:star
+ MERGE Class id:latetypesubdwarf
+ Got sub-class node in donor ontology id:latetypestar
+ Got sub-class node in donor ontology id:lowluminositystar
+ Got sub-class node in donor ontology id:subdwarf
+ MERGE Class id:latetypestar
+ MERGE Class id:lowluminositystar
+ MERGE Class id:subdwarf
+ Got sub-class node in donor ontology id:subluminousstar
+ MERGE Class id:subluminousstar
+ MERGE Class id:stellarobject
+MATCHED node in donor ontology id:planetary
+ MERGE Class id:planetary
+MATCHED node in donor ontology id:virtualobservatory
+ MERGE Class id:virtualobservatory
+MATCHED node in donor ontology id:magnetohydrodynamic
+ MERGE Class id:magnetohydrodynamic
+MATCHED node in donor ontology id:transmissiongrating
+ MERGE Class id:transmissiongrating
+ Got sub-class node in donor ontology id:diffractiongrating
+ MERGE Class id:diffractiongrating
+ Got sub-class node in donor ontology id:opticalcomponent
+ MERGE Class id:opticalcomponent
+MATCHED node in donor ontology id:sunspot
+ MERGE Class id:sunspot
+ Got sub-class node in donor ontology id:starspot
+ MERGE Class id:starspot
+MATCHED node in donor ontology id:ion
+ MERGE Class id:ion
+ Got sub-class node in donor ontology id:compositeparticle
+ Got sub-class node in donor ontology id:particle
+ MERGE Class id:compositeparticle
+ Got sub-class node in donor ontology id:boson
+ MERGE Class id:boson
+ Got sub-class node in donor ontology id:elementaryparticle
+ Got sub-class node in donor ontology id:particle
+ MERGE Class id:elementaryparticle
+ Got sub-class node in donor ontology id:particle
+ MERGE Class id:particle
+ MERGE Class id:particle
+ MERGE Class id:particle
+MATCHED node in donor ontology id:atla
+ MERGE Class id:atla
+MATCHED node in donor ontology id:hiiregion
+ MERGE Class id:hiiregion
+ Got sub-class node in donor ontology id:emissionlineobject
+ Got sub-class node in donor ontology id:emissionnebula
+ Got sub-class node in donor ontology id:interstellarmatter
+ MERGE Class id:emissionlineobject
+ MERGE Class id:emissionnebula
+ Got sub-class node in donor ontology id:emissionlineobject
+ Got sub-class node in donor ontology id:gaseousnebula
+ Got sub-class node in donor ontology id:nebula
+ MERGE Class id:emissionlineobject
+ MERGE Class id:gaseousnebula
+ Got sub-class node in donor ontology id:nebula
+ MERGE Class id:nebula
+ Got sub-class node in donor ontology id:interstellarmatter
+ MERGE Class id:interstellarmatter
+ MERGE Class id:nebula
+ MERGE Class id:interstellarmatter
+MATCHED node in donor ontology id:jet
+ MERGE Class id:jet
+ Got sub-class node in donor ontology id:massloss
+ MERGE Class id:massloss
+MATCHED node in donor ontology id:sun
+ MERGE Class id:sun
+ Got sub-class node in donor ontology id:star
+ MERGE Class id:star
+MATCHED node in donor ontology id:gravitationallensing
+ MERGE Class id:gravitationallensing
+MATCHED node in donor ontology id:color
+ MERGE Class id:color
+ Got sub-class node in donor ontology id:opticalproperty
+ MERGE Class id:opticalproperty
+ Got sub-class node in donor ontology id:property
+ MERGE Class id:property
+MATCHED node in donor ontology id:astrometry
+ MERGE Class id:astrometry
+ Got sub-class node in donor ontology id:astronomicaltechnique
+ Got sub-class node in donor ontology id:astronomy
+ Got sub-class node in donor ontology id:observingtechnique
+ MERGE Class id:astronomicaltechnique
+ MERGE Class id:astronomy
+ MERGE Class id:observingtechnique
+MATCHED node in donor ontology id:supernova
+ MERGE Class id:supernova
+ Got sub-class node in donor ontology id:highluminositystar
+ Got sub-class node in donor ontology id:star
+ MERGE Class id:highluminositystar
+ MERGE Class id:star
+MATCHED node in donor ontology id:prism
+ MERGE Class id:prism
+MATCHED node in donor ontology id:whitedwarf
+ MERGE Class id:whitedwarf
+ Got sub-class node in donor ontology id:compactobject
+ Got sub-class node in donor ontology id:degeneratedwarf
+ Got sub-class node in donor ontology id:evolvedstar
+ Got sub-class node in donor ontology id:stellarobject
+ MERGE Class id:compactobject
+ MERGE Class id:degeneratedwarf
+ Got sub-class node in donor ontology id:degeneratestar
+ MERGE Class id:degeneratestar
+ MERGE Class id:evolvedstar
+ MERGE Class id:stellarobject
+MATCHED node in donor ontology id:variability
+ MERGE Class id:variability
+MATCHED node in donor ontology id:position
+ MERGE Class id:position
+MATCHED node in donor ontology id:astrobiology
+ MERGE Class id:astrobiology
+ Got sub-class node in donor ontology id:astronomy
+ Got sub-class node in donor ontology id:biology
+ Got sub-class node in donor ontology id:scientificfield
+ MERGE Class id:astronomy
+ MERGE Class id:biology
+ Got sub-class node in donor ontology id:scientificfield
+ MERGE Class id:scientificfield
+ MERGE Class id:scientificfield
+MATCHED node in donor ontology id:propermotion
+ MERGE Class id:propermotion
+ Got sub-class node in donor ontology id:motion
+ Got sub-class node in donor ontology id:spacemotion
+ MERGE Class id:motion
+ MERGE Class id:spacemotion
+ Got sub-class node in donor ontology id:motion
+ MERGE Class id:motion
+MATCHED node in donor ontology id:ionosphere
+ MERGE Class id:ionosphere
+MATCHED node in donor ontology id:evolution
+ MERGE Class id:evolution
+MATCHED node in donor ontology id:nova
+ MERGE Class id:nova
+ Got sub-class node in donor ontology id:eruptivebinarystar
+ Got sub-class node in donor ontology id:highluminositystar
+ MERGE Class id:eruptivebinarystar
+ Got sub-class node in donor ontology id:binarystar
+ MERGE Class id:binarystar
+ MERGE Class id:highluminositystar
+MATCHED node in donor ontology id:astrophysics
+ MERGE Class id:astrophysics
+ Got sub-class node in donor ontology id:scientificfield
+ MERGE Class id:scientificfield
+MATCHED node in donor ontology id:catalog
+ MERGE Class id:catalog
+MATCHED node in donor ontology id:biology
+ MERGE Class id:biology
+MATCHED node in donor ontology id:velocity
+ MERGE Class id:velocity
+MATCHED node in donor ontology id:magneticfield
+ MERGE Class id:magneticfield
+MATCHED node in donor ontology id:geophysic
+ MERGE Class id:geophysic
+ Got sub-class node in donor ontology id:earthscience
+ MERGE Class id:earthscience
+ Got sub-class node in donor ontology id:scientificfield
+ MERGE Class id:scientificfield
+MATCHED node in donor ontology id:earth
+ MERGE Class id:earth
+ Got sub-class node in donor ontology id:planet
+ MERGE Class id:planet
+ Got sub-class node in donor ontology id:rotatingbody
+ MERGE Class id:rotatingbody
+MATCHED node in donor ontology id:photographicplate
+ MERGE Class id:photographicplate
+ Got sub-class node in donor ontology id:photographicmaterial
+ MERGE Class id:photographicmaterial
+MATCHED node in donor ontology id:len
+ MERGE Class id:len
+ Got sub-class node in donor ontology id:opticalcomponent
+ MERGE Class id:opticalcomponent
+MATCHED node in donor ontology id:solar
+ MERGE Class id:solar
+MATCHED node in donor ontology id:research
+ MERGE Class id:research
+MATCHED node in donor ontology id:survey
+ MERGE Class id:survey
+MATCHED node in donor ontology id:referencesystem
+ MERGE Class id:referencesystem
+MATCHED node in donor ontology id:space
+ MERGE Class id:space
+MATCHED node in donor ontology id:infrared
+ MERGE Class id:infrared
+MATCHED node in donor ontology id:geodesy
+ MERGE Class id:geodesy
+ Got sub-class node in donor ontology id:earthscience
+ MERGE Class id:earthscience
+MATCHED node in donor ontology id:ultraviolet
+ MERGE Class id:ultraviolet
+MATCHED node in donor ontology id:time
+ MERGE Class id:time
+MATCHED node in donor ontology id:multiplestar
+ MERGE Class id:multiplestar
+MATCHED node in donor ontology id:flare
+ MERGE Class id:flare
+MATCHED node in donor ontology id:satellite
+ MERGE Class id:satellite
+MATCHED node in donor ontology id:skysurvey
+ MERGE Class id:skysurvey
+ Got sub-class node in donor ontology id:survey
+ MERGE Class id:survey
+MATCHED node in donor ontology id:image
+ MERGE Class id:image
+MATCHED node in donor ontology id:nebula
+ MERGE Class id:nebula
+MATCHED node in donor ontology id:molecularcloud
+ MERGE Class id:molecularcloud
+ Got sub-class node in donor ontology id:interstellarmatter
+ MERGE Class id:interstellarmatter
+MATCHED node in donor ontology id:simulation
+ MERGE Class id:simulation
+MATCHED node in donor ontology id:corona
+ MERGE Class id:corona
+MATCHED node in donor ontology id:universe
+ MERGE Class id:universe
+MATCHED node in donor ontology id:interferometry
+ MERGE Class id:interferometry
+ Got sub-class node in donor ontology id:astronomicaltechnique
+ Got sub-class node in donor ontology id:observingtechnique
+ MERGE Class id:astronomicaltechnique
+ MERGE Class id:observingtechnique
+MATCHED node in donor ontology id:albedo
+ MERGE Class id:albedo
+ Got sub-class node in donor ontology id:opticalproperty
+ MERGE Class id:opticalproperty
+MATCHED node in donor ontology id:planetarysystem
+ MERGE Class id:planetarysystem
+MATCHED node in donor ontology id:variablestar
+ MERGE Class id:variablestar
+MATCHED node in donor ontology id:observatory
+ MERGE Class id:observatory
+MATCHED node in donor ontology id:ostar
+ MERGE Class id:ostar
+ Got sub-class node in donor ontology id:obstar
+ Got sub-class node in donor ontology id:earlytypestar
+ Got sub-class node in donor ontology id:youngstar
+ MERGE Class id:obstar
+ MERGE Class id:earlytypestar
+ MERGE Class id:youngstar
+MATCHED node in donor ontology id:spectralline
+ MERGE Class id:spectralline
+MATCHED node in donor ontology id:burst
+ MERGE Class id:burst
+MATCHED node in donor ontology id:resolution
+ MERGE Class id:resolution
+MATCHED node in donor ontology id:age
+ MERGE Class id:age
+MATCHED node in donor ontology id:radar
+ MERGE Class id:radar
+MATCHED node in donor ontology id:lightpollution
+ MERGE Class id:lightpollution
+ Got sub-class node in donor ontology id:pollution
+ MERGE Class id:pollution
+MATCHED node in donor ontology id:anomaly
+ MERGE Class id:anomaly
+MATCHED node in donor ontology id:seyfertgalaxy
+ MERGE Class id:seyfertgalaxy
+ Got sub-class node in donor ontology id:peculiargalaxy
+ MERGE Class id:peculiargalaxy
+ Got sub-class node in donor ontology id:galaxy
+ Got sub-class node in donor ontology id:peculiarobject
+ MERGE Class id:galaxy
+ MERGE Class id:peculiarobject
+MATCHED node in donor ontology id:formation
+ MERGE Class id:formation
+MATCHED node in donor ontology id:magnitude
+ MERGE Class id:magnitude
+MATCHED node in donor ontology id:gas
+ MERGE Class id:gas
+MATCHED node in donor ontology id:comet
+ MERGE Class id:comet
+ Got sub-class node in donor ontology id:rotatingbody
+ MERGE Class id:rotatingbody
+MATCHED node in donor ontology id:neutronstar
+ MERGE Class id:neutronstar
+ Got sub-class node in donor ontology id:collapsedstar
+ Got sub-class node in donor ontology id:compactobject
+ Got sub-class node in donor ontology id:degeneratestar
+ Got sub-class node in donor ontology id:relativisticstar
+ Got sub-class node in donor ontology id:stellarobject
+ MERGE Class id:collapsedstar
+ MERGE Class id:compactobject
+ MERGE Class id:degeneratestar
+ MERGE Class id:relativisticstar
+ MERGE Class id:stellarobject
+MATCHED node in donor ontology id:rotationalvelocity
+ MERGE Class id:rotationalvelocity
+ Got sub-class node in donor ontology id:velocity
+ MERGE Class id:velocity
+MATCHED node in donor ontology id:cosmic
+ MERGE Class id:cosmic
+MATCHED node in donor ontology id:findingchart
+ MERGE Class id:findingchart
+MATCHED node in donor ontology id:star
+ MERGE Class id:star
+MATCHED node in donor ontology id:quasar
+ MERGE Class id:quasar
+ Got sub-class node in donor ontology id:extragalacticobject
+ Got sub-class node in donor ontology id:extragalacticradiosource
+ MERGE Class id:extragalacticobject
+ MERGE Class id:extragalacticradiosource
+ Got sub-class node in donor ontology id:extragalacticobject
+ Got sub-class node in donor ontology id:radiosource
+ MERGE Class id:extragalacticobject
+ MERGE Class id:radiosource
+MATCHED node in donor ontology id:flarestar
+ MERGE Class id:flarestar
+ Got sub-class node in donor ontology id:dwarf
+ Got sub-class node in donor ontology id:emissionlinestar
+ Got sub-class node in donor ontology id:infraredsource
+ Got sub-class node in donor ontology id:radiostar
+ MERGE Class id:dwarf
+ MERGE Class id:emissionlinestar
+ MERGE Class id:infraredsource
+ Got sub-class node in donor ontology id:source
+ MERGE Class id:source
+ MERGE Class id:radiostar
+ Got sub-class node in donor ontology id:radiosource
+ MERGE Class id:radiosource
+MATCHED node in donor ontology id:redshift
+ MERGE Class id:redshift
+ Got sub-class node in donor ontology id:dopplereffect
+ Got sub-class node in donor ontology id:lineshift
+ MERGE Class id:dopplereffect
+ MERGE Class id:lineshift
+MATCHED node in donor ontology id:darkenergy
+ MERGE Class id:darkenergy
+MATCHED node in donor ontology id:chemistry
+ MERGE Class id:chemistry
+ Got sub-class node in donor ontology id:scientificfield
+ MERGE Class id:scientificfield
+MATCHED node in donor ontology id:testing
+ MERGE Class id:testing
+MATCHED node in donor ontology id:kinematic
+ MERGE Class id:kinematic
+MATCHED node in donor ontology id:spectrum
+ MERGE Class id:spectrum
+MATCHED node in donor ontology id:halo
+ MERGE Class id:halo
+MATCHED node in donor ontology id:plasma
+ MERGE Class id:plasma
+ Got sub-class node in donor ontology id:particle
+ MERGE Class id:particle
+MATCHED node in donor ontology id:solarsystem
+ MERGE Class id:solarsystem
+ Got sub-class node in donor ontology id:planetarysystem
+ MERGE Class id:planetarysystem
+MATCHED node in donor ontology id:planet
+ MERGE Class id:planet
+MATCHED node in donor ontology id:hubblespacetelescope
+ MERGE Class id:hubblespacetelescope
+ Got sub-class node in donor ontology id:opticalobservatory
+ Got sub-class node in donor ontology id:spaceobservatory
+ Got sub-class node in donor ontology id:ultravioletobservatory
+ MERGE Class id:opticalobservatory
+ Got sub-class node in donor ontology id:observatory
+ MERGE Class id:observatory
+ MERGE Class id:spaceobservatory
+ Got sub-class node in donor ontology id:observatory
+ Got sub-class node in donor ontology id:artificialsatellite
+ MERGE Class id:observatory
+ MERGE Class id:artificialsatellite
+ MERGE Class id:ultravioletobservatory
+ Got sub-class node in donor ontology id:observatory
+ MERGE Class id:observatory
+MATCHED node in donor ontology id:database
+ MERGE Class id:database
+ Got sub-class node in donor ontology id:computing
+ MERGE Class id:computing
+MATCHED node in donor ontology id:photometry
+ MERGE Class id:photometry
+ Got sub-class node in donor ontology id:astronomicaltechnique
+ Got sub-class node in donor ontology id:observingtechnique
+ MERGE Class id:astronomicaltechnique
+ MERGE Class id:observingtechnique
+MATCHED node in donor ontology id:mar
+ MERGE Class id:mar
+ Got sub-class node in donor ontology id:planet
+ MERGE Class id:planet
+MATCHED node in donor ontology id:telescope
+ MERGE Class id:telescope
+ Got sub-class node in donor ontology id:opticalinstrument
+ MERGE Class id:opticalinstrument
+MATCHED node in donor ontology id:magellaniccloud
+ MERGE Class id:magellaniccloud
+MATCHED node in donor ontology id:cluster
+ MERGE Class id:cluster
+MATCHED node in donor ontology id:cosmology
+ MERGE Class id:cosmology
+ Got sub-class node in donor ontology id:astronomy
+ MERGE Class id:astronomy
+MATCHED node in donor ontology id:meteor
+ MERGE Class id:meteor
+MATCHED node in donor ontology id:diameter
+ MERGE Class id:diameter
+ Got sub-class node in donor ontology id:dimension
+ MERGE Class id:dimension
+MATCHED node in donor ontology id:lightcurve
+ MERGE Class id:lightcurve
+ Got sub-class node in donor ontology id:photometricelement
+ MERGE Class id:photometricelement
+MATCHED node in donor ontology id:structure
+ MERGE Class id:structure
+MATCHED node in donor ontology id:asteroid
+ MERGE Class id:asteroid
+ Got sub-class node in donor ontology id:rotatingbody
+ MERGE Class id:rotatingbody
+thomas@silverfish% d[K^Dexit
+
+Script done on Fri 05 Nov 2010 12:57:13 AM EDT
