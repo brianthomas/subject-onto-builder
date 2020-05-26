@@ -1,0 +1,41 @@
+---
+abstract: 'false'
+author:
+  - 'Brian Thomas <bthomas@noao.edu>'
+build_requires:
+  Algorithm::FastPermute: 0.999
+  AstroSemantics: 1.0
+  Test::More: 0.94
+  WWW::Wikipedia: 1.99
+  WordNet::QueryData: 1.49
+  XML::LibXML: 1.70
+  XML::LibXML::Common: 1.70
+dynamic_config: 0
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.120630'
+license: open_source
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: IVOA-Ontology-Subject
+provides:
+  IVOA::Ontology::Subject:
+    file: lib/IVOA/Ontology/Subject.pm
+    version: 1.0
+  IVOA::Ontology::Subject::CreateOntology:
+    file: lib/IVOA/Ontology/Subject/CreateOntology.pm
+    version: 0
+  IVOA::Ontology::Subject::FilterConcept:
+    file: lib/IVOA/Ontology/Subject/FilterConcept.pm
+    version: 0
+  IVOA::Ontology::Subject::MergeTool:
+    file: lib/IVOA/Ontology/Subject/MergeTool.pm
+    version: 0
+  IVOA::Ontology::Subject::Tokenizer:
+    file: lib/IVOA/Ontology/Subject/Tokenizer.pm
+    version: 0
+  IVOA::Ontology::Subject::WikipediaSearch:
+    file: lib/IVOA/Ontology/Subject/WikipediaSearch.pm
+    version: 0
+resources:
+  license: http://opensource.org/licenses/lgpl-license.php
+version: 1.0
